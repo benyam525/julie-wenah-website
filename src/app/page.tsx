@@ -1,22 +1,46 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <div className="min-h-screen pt-20">
       {/* Hero Section */}
       <section className="max-w-6xl mx-auto px-6 py-20 md:py-32">
-        <div className="max-w-3xl">
-          <h1 className="headline-serif text-4xl md:text-5xl lg:text-6xl mb-6">
-            Technology isn&apos;t neutral.
-            <br />
-            <span className="text-[var(--muted)]">It never has been.</span>
-          </h1>
-          <p className="text-xl md:text-2xl text-[var(--muted)] mb-8 body-text">
-            I work at the intersection of civil rights, technology, and culture to make sure equity is built into digital systems—not patched on after harm is done.
-          </p>
-          <p className="text-lg text-[var(--accent)]">
-            Law. Product. Storytelling. All in service of people.
-          </p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <div>
+            <h1 className="headline-serif text-4xl md:text-5xl lg:text-6xl mb-6">
+              Technology isn&apos;t neutral.
+              <br />
+              <span className="text-[var(--muted)]">It never has been.</span>
+            </h1>
+            <p className="text-xl md:text-2xl text-[var(--muted)] mb-8 body-text">
+              I work at the intersection of civil rights, technology, and culture to make sure equity is built into digital systems—not patched on after harm is done.
+            </p>
+            <p className="text-lg text-[var(--accent)]">
+              Law. Product. Storytelling. All in service of people.
+            </p>
+          </div>
+          {/* PHOTO PLACEHOLDER: Hero headshot of Julie - professional, warm, confident */}
+          <div className="relative aspect-[4/5] bg-[var(--border)] rounded-lg overflow-hidden flex items-center justify-center">
+            <div className="text-center p-6">
+              <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-[var(--muted)]/20 flex items-center justify-center">
+                <svg className="w-8 h-8 text-[var(--muted)]" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                </svg>
+              </div>
+              <p className="text-sm text-[var(--muted)]">Hero Photo</p>
+              <p className="text-xs text-[var(--muted)]/70 mt-1">Professional headshot</p>
+            </div>
+            {/* Uncomment and update src when photo is ready:
+            <Image
+              src="/images/julie-hero.jpg"
+              alt="Julie Wenah"
+              fill
+              className="object-cover"
+              priority
+            />
+            */}
+          </div>
         </div>
       </section>
 
