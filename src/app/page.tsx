@@ -20,26 +20,15 @@ export default function Home() {
               Law. Product. Storytelling. All in service of people.
             </p>
           </div>
-          {/* PHOTO PLACEHOLDER: Hero headshot of Julie - professional, warm, confident */}
-          <div className="relative aspect-[4/5] bg-[var(--border)] rounded-lg overflow-hidden flex items-center justify-center">
-            <div className="text-center p-6">
-              <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-[var(--muted)]/20 flex items-center justify-center">
-                <svg className="w-8 h-8 text-[var(--muted)]" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                </svg>
-              </div>
-              <p className="text-sm text-[var(--muted)]">Hero Photo</p>
-              <p className="text-xs text-[var(--muted)]/70 mt-1">Professional headshot</p>
-            </div>
-            {/* Uncomment and update src when photo is ready:
+          {/* Hero headshot of Julie */}
+          <div className="relative aspect-[4/5] bg-[var(--border)] rounded-lg overflow-hidden">
             <Image
-              src="/images/julie-hero.jpg"
+              src="/julie-homepage.jpeg"
               alt="Julie Wenah"
               fill
               className="object-cover"
               priority
             />
-            */}
           </div>
         </div>
       </section>
