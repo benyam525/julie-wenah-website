@@ -16,7 +16,7 @@ export default function Footer() {
               Julie Wenah
             </Link>
             <p className="mt-3 text-sm text-[var(--muted)] max-w-xs">
-              Working at the intersection of civil rights, technology, and culture.
+              Working at the intersection of law, technology, and culture.
             </p>
           </div>
 

@@ -14,10 +14,7 @@ export default function Home() {
               <span className="text-[var(--muted)]">It never has been.</span>
             </h1>
             <p className="text-xl md:text-2xl text-[var(--muted)] mb-8 body-text">
-              I work at the intersection of civil rights, technology, and culture to make sure equity is built into digital systems—not patched on after harm is done.
-            </p>
-            <p className="text-lg text-[var(--accent)]">
-              Law. Product. Storytelling. All in service of people.
+              I work at the intersection of law, product, technology, and storytelling to make sure equity is built into digital systems.
             </p>
           </div>
           {/* Hero headshot of Julie */}
@@ -42,14 +39,14 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8">
             {/* Pillar 1: Inside Technology */}
-            <article className="space-y-4">
-              <h3 className="headline-serif text-2xl">
+            <article className="flex flex-col h-[320px]">
+              <h3 className="headline-serif text-2xl mb-4">
                 Designing Technology With Consequences in Mind
               </h3>
-              <p className="text-[var(--muted)] body-text">
-                Product leadership focused on embedding civil rights into platform design, AI systems, and governance frameworks—before scale amplifies harm.
+              <p className="text-[var(--muted)] body-text flex-grow">
+                Product leadership focused on embedding civil rights into platform design, AI systems, and governance frameworks.
               </p>
-              <div className="pt-4 border-t border-[var(--border)]">
+              <div className="pt-4 border-t border-[var(--border)] mt-auto">
                 <p className="text-sm text-[var(--muted)]">
                   <span className="font-medium text-[var(--foreground)]">In practice:</span> Meta civil rights work, Race Data Measurement, Project Height, Airbnb Project Lighthouse
                 </p>
@@ -57,14 +54,14 @@ export default function Home() {
             </article>
 
             {/* Pillar 2: Around Institutions */}
-            <article className="space-y-4">
-              <h3 className="headline-serif text-2xl">
+            <article className="flex flex-col h-[320px]">
+              <h3 className="headline-serif text-2xl mb-4">
                 Holding Institutions Accountable
               </h3>
-              <p className="text-[var(--muted)] body-text">
-                Legal and policy work across government and industry to ensure civil rights don&apos;t stop at the digital door.
+              <p className="text-[var(--muted)] body-text flex-grow">
+                Legal and policy work across government and industry to ensure humanity does not stop at the digital door.
               </p>
-              <div className="pt-4 border-t border-[var(--border)]">
+              <div className="pt-4 border-t border-[var(--border)] mt-auto">
                 <p className="text-sm text-[var(--muted)]">
                   <span className="font-medium text-[var(--foreground)]">In practice:</span> FCC CEDC, Obama Administration, regulatory frameworks, manufacturing initiative
                 </p>
@@ -72,14 +69,14 @@ export default function Home() {
             </article>
 
             {/* Pillar 3: Across Culture */}
-            <article className="space-y-4">
-              <h3 className="headline-serif text-2xl">
+            <article className="flex flex-col h-[320px]">
+              <h3 className="headline-serif text-2xl mb-4">
                 Shaping Culture Around Power and Technology
               </h3>
-              <p className="text-[var(--muted)] body-text">
-                Coalition-building, storytelling, and creative work that shift how we talk about—and ultimately govern—technology.
+              <p className="text-[var(--muted)] body-text flex-grow">
+                Coalition-building, storytelling, and creative work that shift how we talk about, experience, and govern technology.
               </p>
-              <div className="pt-4 border-t border-[var(--border)]">
+              <div className="pt-4 border-t border-[var(--border)] mt-auto">
                 <p className="text-sm text-[var(--muted)]">
                   <span className="font-medium text-[var(--foreground)]">In practice:</span> Digital Civil Rights Coalition, filmmaking, The Album &amp; The Mixtape, Davos panels
                 </p>
@@ -105,9 +102,9 @@ export default function Home() {
       <section className="max-w-6xl mx-auto px-6 py-20 md:py-28">
         <div className="max-w-3xl mx-auto text-center">
           <blockquote className="border-l-0 pl-0 text-2xl md:text-3xl headline-serif text-[var(--foreground)] italic">
-            &ldquo;I didn&apos;t come to technology through code. I came through civil rights.&rdquo;
+            &ldquo;The technology train is moving fast. I want to help you choose how you experience that ride on the train.&rdquo;
           </blockquote>
-          <p className="mt-6 text-[var(--muted)]">— Julie Wenah</p>
+          <p className="mt-6 text-[var(--muted)]">Julie Wenah</p>
         </div>
       </section>
 
@@ -150,7 +147,7 @@ export default function Home() {
       <section className="bg-[var(--foreground)] text-[var(--background)] py-20 md:py-28">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h2 className="headline-serif text-3xl md:text-4xl mb-6">
-            The question is who technology serves—and who it leaves behind.
+            The question is who technology serves and who it leaves behind.
           </h2>
           <p className="text-lg text-[var(--background)]/70 mb-10 max-w-2xl mx-auto">
             Whether through speaking, collaboration, or partnership, I&apos;m always interested in conversations about building more equitable technology.
