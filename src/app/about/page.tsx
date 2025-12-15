@@ -16,9 +16,9 @@ export default function AboutPage() {
               About
             </p>
             <h1 className="headline-serif text-4xl md:text-5xl mb-8">
-              I didn&apos;t come to technology through code.
+              Daughter of immigrants.
               <br />
-              <span className="text-[var(--accent)]">I came through civil rights.</span>
+              <span className="text-[var(--accent)]">Trying to honor her late parent&apos;s legacy.</span>
             </h1>
           </div>
           {/* PHOTO PLACEHOLDER: Portrait of Julie - editorial, thoughtful */}
