@@ -19,7 +19,7 @@ export default function WorkPage() {
             If technology isn&apos;t neutral, then responsibility doesn&apos;t live in just one place.
           </h1>
           <p className="text-xl text-[var(--muted)] body-text">
-            My work spans three domains: inside technology companies, around the institutions that govern them, and across the culture that shapes how we think about power and innovation.
+            My work spans three domains: inside big technology companies, around institutions that govern them, and across the culture that shapes how we think about power and innovation.
           </p>
         </div>
       </section>
@@ -32,7 +32,7 @@ export default function WorkPage() {
               Inside Technology
             </p>
             <h2 className="headline-serif text-3xl md:text-4xl mb-4">
-              Products encode values—whether teams admit it or not.
+              Products encode values.
             </h2>
           </div>
 
@@ -42,6 +42,27 @@ export default function WorkPage() {
               Meta
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <article className="space-y-3">
+                <h4 className="font-semibold">Civil Rights Product and Accessibility Lead</h4>
+                <p className="text-[var(--muted)] body-text">
+                  As Associate General Counsel, served as product lead for accessibility across Meta&apos;s civil rights work, advising on products reaching billions of users.
+                </p>
+              </article>
+
+              <article className="space-y-3">
+                <h4 className="font-semibold">Project Height</h4>
+                <p className="text-[var(--muted)] body-text">
+                  Created a multi-pronged approach: (1) proactive tool and framework enabling product teams to build inclusively, (2) scholarship program of over $250K in partnership with Dorothy I. Height Education Foundation and National Council of Negro Women.
+                </p>
+              </article>
+
+              <article className="space-y-3">
+                <h4 className="font-semibold">Ray-Ban Meta Smart Glasses</h4>
+                <p className="text-[var(--muted)] body-text">
+                  Supported product launch, advising on facial recognition systems and ensuring civil rights considerations were embedded in the product development process.
+                </p>
+              </article>
+
               <article className="space-y-3">
                 <h4 className="font-semibold">Race Data Measurement Initiative</h4>
                 <p className="text-[var(--muted)] body-text">
@@ -55,27 +76,6 @@ export default function WorkPage() {
                 >
                   Read more
                 </Link>
-              </article>
-
-              <article className="space-y-3">
-                <h4 className="font-semibold">Project Height</h4>
-                <p className="text-[var(--muted)] body-text">
-                  Created a multi-pronged approach: (1) proactive tool and framework enabling product teams to build inclusively, (2) scholarship program of over $300K in partnership with Dorothy I. Height Education Foundation and National Council of Negro Women.
-                </p>
-              </article>
-
-              <article className="space-y-3">
-                <h4 className="font-semibold">Ray-Ban Meta Smart Glasses</h4>
-                <p className="text-[var(--muted)] body-text">
-                  Supported product launch, advising on facial recognition systems and ensuring civil rights considerations were embedded in the product development process.
-                </p>
-              </article>
-
-              <article className="space-y-3">
-                <h4 className="font-semibold">Civil Rights Product Lead</h4>
-                <p className="text-[var(--muted)] body-text">
-                  As Associate General Counsel, served as product lead for accessibility across Meta&apos;s civil rights work, advising on products reaching billions of users.
-                </p>
               </article>
             </div>
           </div>
@@ -104,14 +104,14 @@ export default function WorkPage() {
               <article className="space-y-3">
                 <h4 className="font-semibold">Community Commitment</h4>
                 <p className="text-[var(--muted)] body-text">
-                  Drove legal support for civil liberties efforts. When Airbnb required users to commit to non-discrimination, 1.3 million users chose to leave rather than agree—proving platforms can take a stand.
+                  Drove legal support for civil liberties efforts. When Airbnb required users to commit to non-discrimination, 1.3 million users chose to leave rather than agree, thereby proving platforms can take a stand.
                 </p>
               </article>
 
               <article className="space-y-3">
                 <h4 className="font-semibold">Bias Mitigation Policies</h4>
                 <p className="text-[var(--muted)] body-text">
-                  Led policy to hide guest profile photos until after booking accepted. Expanded Instant Book feature allowing guests to book without prior approval—reducing opportunities for discrimination.
+                  Led policy to hide guest profile photos until after booking accepted. Expanded Instant Book feature allowing guests to book without prior approval.
                 </p>
               </article>
 
@@ -199,7 +199,7 @@ export default function WorkPage() {
               Systems don&apos;t change until stories do.
             </h2>
             <p className="text-lg text-[var(--muted)] max-w-2xl">
-              This is where creativity gets legitimacy—not as a side hobby, but as strategy.
+              This is where creativity gets legitimacy as strategy.
             </p>
           </div>
 
