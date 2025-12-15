@@ -17,8 +17,8 @@ export default function Home() {
               I work at the intersection of law, product, technology, and storytelling to make sure equity is built into digital systems.
             </p>
           </div>
-          {/* Hero headshot of Julie - Option 1: Sharp corners (editorial) */}
-          <div className="relative aspect-[4/5] bg-[var(--border)] overflow-hidden">
+          {/* Hero headshot of Julie - Option 2: Subtle shadow + rounded corners */}
+          <div className="relative aspect-[4/5] bg-[var(--border)] rounded-2xl overflow-hidden shadow-lg">
             <Image
               src="/julie-homepage.jpeg"
               alt="Julie Wenah"
