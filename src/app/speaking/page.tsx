@@ -10,7 +10,7 @@ export default function SpeakingPage() {
   const topics = [
     {
       title: "What 'Neutral Technology' Gets Wrong",
-      description: "Why the myth of technological neutrality obscures real choices—and real harms. A look at how design decisions encode values, whether we acknowledge it or not.",
+      description: "Why the myth of technological neutrality obscures real choices and real harms. A look at how design decisions encode values, whether we acknowledge it or not.",
     },
     {
       title: "Designing for Equity Before Scale",
@@ -18,7 +18,7 @@ export default function SpeakingPage() {
     },
     {
       title: "AI, Power, and Civil Rights",
-      description: "Examining how AI systems perpetuate and create new forms of discrimination—and what responsible development actually looks like.",
+      description: "Examining how AI systems perpetuate and create new forms of discrimination, and what responsible development actually looks like.",
     },
     {
       title: "Why Culture Is the Missing Layer in Tech Accountability",
@@ -26,7 +26,7 @@ export default function SpeakingPage() {
     },
     {
       title: "From Policy to Product: How Laws Become Code",
-      description: "The journey from civil rights law to product feature—and why legal expertise alone isn't enough to ensure equitable technology.",
+      description: "The journey from civil rights law to product feature, and why legal expertise alone isn't enough to ensure equitable technology.",
     },
     {
       title: "Building Responsible Technology in the Age of AI",
@@ -67,7 +67,7 @@ export default function SpeakingPage() {
             <span className="text-[var(--accent)]">Mine start with consequences.</span>
           </h1>
           <p className="text-xl text-[var(--muted)] body-text">
-            I bring over a decade of experience at the intersection of civil rights, technology, and policy—translating complex issues into actionable insights for diverse audiences.
+            I bring over a decade of experience at the intersection of civil rights, technology, and policy, translating complex issues into actionable insights for diverse audiences.
           </p>
         </div>
       </section>
@@ -98,7 +98,7 @@ export default function SpeakingPage() {
             </h2>
             <div className="space-y-6 body-text">
               <p className="text-lg text-[var(--foreground)]">
-                I&apos;m not interested in being a panel filler. I&apos;m interested in conversations that change how people think—and ultimately act—on technology and civil rights.
+                I&apos;m not interested in being a panel filler. I&apos;m interested in conversations that change how people think and ultimately act on technology and civil rights.
               </p>
               <p className="text-lg text-[var(--muted)]">
                 My talks draw from real experience: building anti-discrimination systems at Airbnb, leading civil rights product work at Meta, advising the Obama Administration, and chairing the Digital Civil Rights Coalition.

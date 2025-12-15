@@ -60,19 +60,19 @@ export default function AboutPage() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="max-w-3xl space-y-8 body-text">
             <p className="text-lg text-[var(--foreground)]">
-              My path hasn&apos;t followed the typical tech trajectory. It started with a belief: that the rules governing our world—legal, technological, cultural—determine who gets access and who gets left out.
+              My path hasn&apos;t followed the typical tech trajectory. It started with a belief: that the rules governing our world, legal, technological, cultural, determine who gets access and who gets left out.
             </p>
 
             <p className="text-lg text-[var(--muted)]">
-              As a <strong className="text-[var(--foreground)]">legal fellow at NASA</strong>, I began to understand how institutions encode their values into their structures. At the <strong className="text-[var(--foreground)]">White House</strong>, in First Lady Michelle Obama&apos;s policy shop, I saw how policy can be wielded to reshape opportunity. At the <strong className="text-[var(--foreground)]">U.S. Department of Commerce</strong>, I led President Obama&apos;s manufacturing initiative and worked on U.S.-Africa trade and energy agreements—work that showed me how systems scale.
+              As a <strong className="text-[var(--foreground)]">legal fellow at NASA</strong>, I began to understand how institutions encode their values into their structures. At the <strong className="text-[var(--foreground)]">White House</strong>, in First Lady Michelle Obama&apos;s policy shop, I saw how policy can be wielded to reshape opportunity. At the <strong className="text-[var(--foreground)]">U.S. Department of Commerce</strong>, I led President Obama&apos;s manufacturing initiative and worked on U.S.-Africa trade and energy agreements, work that showed me how systems scale.
             </p>
 
             <p className="text-lg text-[var(--muted)]">
-              Then I moved into technology. At <strong className="text-[var(--foreground)]">Airbnb</strong>, I helped create Project Lighthouse—an industry-first initiative to measure and address discrimination on the platform. When 1.3 million users refused to commit to non-discrimination and left, it proved something important: platforms make choices, and those choices matter.
+              Then I moved into technology. At <strong className="text-[var(--foreground)]">Airbnb</strong>, I helped create Project Lighthouse, an industry-first initiative to measure and address discrimination on the platform. When 1.3 million users refused to commit to non-discrimination and left, it proved something important: platforms make choices, and those choices matter.
             </p>
 
             <p className="text-lg text-[var(--muted)]">
-              At <strong className="text-[var(--foreground)]">Meta</strong>, as Associate General Counsel and Civil Rights Product Lead, I led the Race Data Measurement initiative, developing privacy-preserving methodologies to understand how marginalized communities experience technology. I created Project Height—a framework for inclusive product development paired with a $300K+ scholarship program investing in the next generation of civil rights and tech leaders.
+              At <strong className="text-[var(--foreground)]">Meta</strong>, as Associate General Counsel and Civil Rights Product Lead, I led the Race Data Measurement initiative, developing privacy-preserving methodologies to understand how marginalized communities experience technology. I created Project Height, a framework for inclusive product development paired with a $250K+ scholarship program investing in the next generation of civil rights and tech leaders.
             </p>
 
             <p className="text-lg text-[var(--muted)]">
@@ -80,7 +80,7 @@ export default function AboutPage() {
             </p>
 
             <p className="text-lg text-[var(--foreground)]">
-              And through it all, I&apos;ve been a storyteller—an award-winning filmmaker producing docuseries centered around healing and hip hop, because I know that systems don&apos;t change until stories do.
+              And through it all, I&apos;ve been a storyteller. An award-winning filmmaker producing docuseries centered around healing and hip hop, because I know that systems don&apos;t change until stories do.
             </p>
           </div>
         </div>
@@ -94,13 +94,13 @@ export default function AboutPage() {
           </h2>
           <div className="max-w-3xl space-y-6 body-text">
             <p className="text-lg text-[var(--muted)]">
-              I am the daughter of Nigerian immigrants who emigrated from a small village with no access to broadband. That reality—the digital divide as a lived experience, not an abstraction—shapes everything I do.
+              I am the daughter of Nigerian immigrants who emigrated from a small village with no access to broadband. That reality, the digital divide as a lived experience, not an abstraction, shapes everything I do.
             </p>
             <p className="text-lg text-[var(--muted)]">
               As a dark-skinned Black woman, I&apos;m acutely conscious of how technology affects women who look like me. From facial recognition that fails on darker skin to algorithms that perpetuate bias, I&apos;ve seen how &quot;neutral&quot; technology often isn&apos;t.
             </p>
             <p className="text-lg text-[var(--muted)]">
-              Growing up, fictional TV lawyers inspired me to pursue law: Claire Huxtable, Benjamin Matlock, Uncle Phil, Maxine Shaw. Yes, I know they were fictional characters. But you can&apos;t be what you don&apos;t see—and that principle drives my work on representation in tech today.
+              Growing up, fictional TV lawyers inspired me to pursue law: Claire Huxtable, Benjamin Matlock, Uncle Phil, Maxine Shaw. Yes, I know they were fictional characters. But you can&apos;t be what you don&apos;t see, and that principle drives my work on representation in tech today.
             </p>
           </div>
         </div>
