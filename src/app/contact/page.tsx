@@ -15,7 +15,7 @@ export default function ContactPage() {
     const formData = new FormData(form);
 
     try {
-      const response = await fetch("https://formspree.io/f/julie.wenah@gmail.com", {
+      const response = await fetch("https://formspree.io/f/xvgendkr", {
         method: "POST",
         body: formData,
         headers: {
