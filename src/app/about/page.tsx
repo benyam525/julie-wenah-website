@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "About | Julie Wenah",
@@ -18,28 +19,17 @@ export default function AboutPage() {
             <h1 className="headline-serif text-4xl md:text-5xl mb-8">
               Daughter of immigrants.
               <br />
-              <span className="text-[var(--accent)]">Trying to honor her late parent&apos;s legacy.</span>
+              <span className="text-[var(--accent)]">Trying to honor my late parent&apos;s legacy.</span>
             </h1>
           </div>
-          {/* PHOTO PLACEHOLDER: Portrait of Julie - editorial, thoughtful */}
-          <div className="relative aspect-[3/4] bg-[var(--border)] rounded-lg overflow-hidden flex items-center justify-center">
-            <div className="text-center p-6">
-              <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-[var(--muted)]/20 flex items-center justify-center">
-                <svg className="w-8 h-8 text-[var(--muted)]" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                </svg>
-              </div>
-              <p className="text-sm text-[var(--muted)]">About Photo</p>
-              <p className="text-xs text-[var(--muted)]/70 mt-1">Editorial portrait</p>
-            </div>
-            {/* Uncomment and update src when photo is ready:
+          {/* Portrait of Julie */}
+          <div className="relative aspect-[3/4] bg-[var(--border)] rounded-2xl overflow-hidden shadow-lg">
             <Image
-              src="/images/julie-about.jpg"
+              src="/images/about.JPG"
               alt="Julie Wenah"
               fill
               className="object-cover"
             />
-            */}
           </div>
         </div>
       </section>

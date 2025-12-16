@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Speaking | Julie Wenah",
@@ -118,30 +119,21 @@ export default function SpeakingPage() {
             Past Speaking Engagements
           </h2>
 
-          {/* PHOTO PLACEHOLDER: Speaking photos grid */}
+          {/* Speaking photos grid */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
             {[
-              { label: "Davos 2024", desc: "On stage" },
-              { label: "Panel Discussion", desc: "Tech conference" },
-              { label: "Keynote", desc: "Speaking at podium" },
-              { label: "Fireside Chat", desc: "Interview setting" },
+              { label: "Davos 2024", src: "/images/davos.jpg" },
+              { label: "Panel Discussion", src: "/images/panel.JPG" },
+              { label: "Keynote", src: "/images/keynote.jpg" },
+              { label: "Fireside Chat", src: "/images/fireside.jpg" },
             ].map((photo, index) => (
-              <div key={index} className="relative aspect-[4/3] bg-[var(--border)] rounded-lg overflow-hidden flex items-center justify-center">
-                <div className="text-center p-4">
-                  <svg className="w-8 h-8 mx-auto mb-2 text-[var(--muted)]" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                  </svg>
-                  <p className="text-xs text-[var(--muted)]">{photo.label}</p>
-                  <p className="text-xs text-[var(--muted)]/70">{photo.desc}</p>
-                </div>
-                {/* Uncomment when photos are ready:
+              <div key={index} className="relative aspect-[4/3] bg-[var(--border)] rounded-lg overflow-hidden shadow-md">
                 <Image
-                  src={`/images/speaking-${index + 1}.jpg`}
+                  src={photo.src}
                   alt={photo.label}
                   fill
                   className="object-cover"
                 />
-                */}
               </div>
             ))}
           </div>
